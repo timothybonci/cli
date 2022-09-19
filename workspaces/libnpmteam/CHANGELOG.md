@@ -1,5 +1,19 @@
 # Changelog
 
+## [5.0.0-pre.1](https://github.com/timothybonci/cli/compare/libnpmteam-v5.0.0-pre.0...libnpmteam-v5.0.0-pre.1) (2022-09-19)
+
+### ⚠️ BREAKING CHANGES
+
+* all workspace packages are now compatible with the following semver range for node: `^14.17.0 || ^16.13.0 || >=18.0.0`
+
+### Features
+
+* [`e95017a`](https://github.com/timothybonci/cli/commit/e95017a07b041cbb3293e659dad853f76462c108) [#5485](https://github.com/timothybonci/cli/pull/5485) workspaces: update supported node engines in package.json (#5485) (@lukekarrys)
+
+### Dependencies
+
+* [`8ab12dc`](https://github.com/timothybonci/cli/commit/8ab12dc32b26db770b868cf694cedab38f4e7460) `@npmcli/eslint-config@3.1.0`
+
 ## [5.0.0-pre.0](https://github.com/npm/cli/compare/libnpmteam-v4.0.4...libnpmteam-v5.0.0-pre.0) (2022-09-08)
 
 ### ⚠ BREAKING CHANGES

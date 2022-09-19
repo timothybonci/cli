@@ -1,5 +1,21 @@
 # Changelog
 
+## [7.0.0-pre.2](https://github.com/timothybonci/cli/compare/libnpmaccess-v7.0.0-pre.1...libnpmaccess-v7.0.0-pre.2) (2022-09-19)
+
+### ⚠️ BREAKING CHANGES
+
+* the api for libnpmaccess is different now
+* all workspace packages are now compatible with the following semver range for node: `^14.17.0 || ^16.13.0 || >=18.0.0`
+
+### Features
+
+* [`854521b`](https://github.com/timothybonci/cli/commit/854521baa49ef88ff9586ec2cc5f1fbaee7fa364) rewrite: Rewrite libnpmaccess (@wraithgar)
+* [`e95017a`](https://github.com/timothybonci/cli/commit/e95017a07b041cbb3293e659dad853f76462c108) [#5485](https://github.com/timothybonci/cli/pull/5485) workspaces: update supported node engines in package.json (#5485) (@lukekarrys)
+
+### Dependencies
+
+* [`8ab12dc`](https://github.com/timothybonci/cli/commit/8ab12dc32b26db770b868cf694cedab38f4e7460) `@npmcli/eslint-config@3.1.0`
+
 ## [7.0.0-pre.1](https://github.com/npm/cli/compare/libnpmaccess-v7.0.0-pre.0...libnpmaccess-v7.0.0-pre.1) (2022-09-14)
 
 ### ⚠️ BREAKING CHANGES
